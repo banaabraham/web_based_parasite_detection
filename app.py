@@ -18,7 +18,7 @@ from plasmodium_detector import *
 global graph
 graph = tf.get_default_graph()
 global model
-model = models.load_model("simple_cnn.h5")
+model = models.load_model("weights_dir")
 model._make_predict_function()
 
 
